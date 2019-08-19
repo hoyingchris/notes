@@ -1,12 +1,12 @@
 <style>
 #important{
-	font-size:20px;
+	font-size:30px;
 	color:red;
-	text-align:center;
+	//text-align:center;
 </style>
 	
 
-<p id="important"> disclaimer: this webpage is for personal testing purpose </p>
+<p style="color:red;font-weight:bold;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
 <br>
 <br>

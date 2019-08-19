@@ -1,9 +1,10 @@
 # notes
-# disclaimer:
-this webpage is for personal testing purpose
 
 
-
+<b> disclaimer: this webpage is for personal testing purpose </b>
+<br>
+<br>
+<br>
 ---last update 2019-07-30---
 
 

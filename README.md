@@ -6,7 +6,7 @@
 </style>
 	
 
-<p style="color:red;font-weight:bold;"> disclaimer: this webpage is for personal testing purpose </p>
+<p style="color:red;font-weight:bold;font-size:10vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
 <br>
 <br>

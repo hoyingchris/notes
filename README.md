@@ -1,6 +1,6 @@
-<style>
-</style>
-	
+/*<style>
+</style>	
+*/
 
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
@@ -9,7 +9,7 @@
 
 ---last update 2019-07-30---
 
-<div style="background-color:gray;">
+<div>
 	
 <p>---below is recommandation for reducing RAM and HDD usage.</p>
 
@@ -43,15 +43,15 @@
 	<li>CHOOSE semi-anual/ current brunch for business (1809 or earlier)</li>
 	<li>if needed, TURN ON pause updates (pause update once)</li>
 	</ul>
-	</ul>
+</ul>
 	
 <h3>settings - update:</h3>
 <ul>
   <li>delivery optim - TURN OFF allow downloads from other PCs.</li>
- <ul>
+<ul>
 	
 <h3>settings - network:(optional)</h3>
-  <ul>
+<ul>
   <li>wifi - sel current wifi property - TURN ON meter connection</li>
 </ul>
 

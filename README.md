@@ -1,6 +1,3 @@
-/*<style>
-</style>	
-*/
 
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
@@ -48,7 +45,7 @@
 <h3>settings - update:</h3>
 <ul>
   <li>delivery optim - TURN OFF allow downloads from other PCs.</li>
-<ul>
+</ul>
 	
 <h3>settings - network:(optional)</h3>
 <ul>
@@ -109,6 +106,7 @@
 
 <br>
 
+<div>
 ---above changes will reduce the RAM and HDD usage. 
 ---highly recommand to make the changes.
 ---below are changes made to Win10, highly recommand:
@@ -160,6 +158,9 @@ ctrl pnl - region and language:
 
 ctrl pnl - power option:
   depends...
+</div>
+
+<div>
 
 if no detail power option:
 ---below is to enable other power plans:
@@ -202,5 +203,6 @@ settings - display:
   TURN OFF: change brightness automatically
 settings - battery:
   TURN OFF: lower screen brightness in battery saver
+</div>
 
----end---
+<p>---end---</p>

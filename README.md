@@ -1,4 +1,7 @@
 # notes
+# disclaimer:
+this webpage is for personal testing purpose
+
 
 
 ---last update 2019-07-30---

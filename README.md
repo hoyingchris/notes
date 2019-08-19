@@ -1,6 +1,6 @@
 <style>
 #important{
-	font-size:40px;
+	font-size:20px;
 	color:red;
 	text-align:center;
 </style>

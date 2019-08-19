@@ -1,10 +1,9 @@
-# notes
-
-
 <b> disclaimer: this webpage is for personal testing purpose </b>
 <br>
 <br>
 <br>
+<h1>windows 10 initial setup keynotes</h1>
+
 ---last update 2019-07-30---
 
 

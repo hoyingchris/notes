@@ -10,7 +10,8 @@
 ---last update 2019-07-30---
 
 <div>
----below is recommandation for reducing RAM and HDD usage.
+	
+<p>---below is recommandation for reducing RAM and HDD usage.</p>
 
 <h3>service: (disable all these)</h3>
 <ul>
@@ -23,21 +24,24 @@
 </ul>
 <br>
 
-c:\ 
-  -properties-tools-optimize-change settings- uncheck
+<dl>
+	<dt>c:\ </dt>
+	<dd>-properties-tools-optimize-change settings- uncheck </dd>
 
-task manager - startup:
-  disable some apps
+<dt>task manager - startup:  </dt>
+  <dd>disable some apps </dd>
 
-settings - update:
-  advanced options: (depends)
-	CHOOSE semi-anual/ current brunch for business (1809 or earlier)
-	if needed, TURN ON pause updates (pause update once)
-settings - update:
-  delivery optim - TURN OFF allow downloads from other PCs.
-settings - network:(optional)
-  wifi - sel current wifi property - TURN ON meter connection
+<dt>settings - update:  </dt>
+  <dd>advanced options: (depends)</dd>
+	<dd>CHOOSE semi-anual/ current brunch for business (1809 or earlier)</dd>
+	<dd>if needed, TURN ON pause updates (pause update once)</dd>
 
+<dt>settings - update:</dt>
+  <dd>delivery optim - TURN OFF allow downloads from other PCs.</dd>
+  
+<dt>settings - network:(optional)</dt>
+  <dd>wifi - sel current wifi property - TURN ON meter connection</dd>
+</dl>
 
 <h2>---belwo usually will be disable all on OOBE screen:</h2>
 <ul>

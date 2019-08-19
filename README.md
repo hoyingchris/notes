@@ -8,9 +8,9 @@
 
 <div>
 	
-<h2>---below is recommandation for reducing RAM and HDD usage.</h2>
+<h3>---below is recommandation for reducing RAM and HDD usage.</h2>
 
-<h3>service: (disable all these)</h3>
+<p>service: (disable all these)</p>
 <ul>
 	<li>connected user experience</li>
 	<li>sysmain/superfetch</li>
@@ -120,14 +120,13 @@
 	<dd>cmd>>> powercfg.exe -h off </dd>
 	<dd>ctrl pnl - power option - power button do - ... </dd>
 </dl>
-
-<p>ctrl pnl - user account:</p>
-  <ul>
-	<li>change user acct ctrl settings - HIGH </li>
- </ul>
+<dl>
+<dt>ctrl pnl - user account:</dt>
+ <dd>change user acct ctrl settings - HIGH </dd>
+ </dl>
 
 <dl>
-<dt>right click taskbar: <dt>
+	<dt>right click taskbar: <dt>
 	<dd>cortana - hidden</dd>
 </dl>
 	
@@ -178,7 +177,9 @@
 	<dt>ctrl pnl - power option: </dt>
 	<dd>  depends... </dd>
 </dl>
+<p></p>
 </div>
+
 
 <div>
 <pre>

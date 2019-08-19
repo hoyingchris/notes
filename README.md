@@ -8,7 +8,7 @@
 
 <div>
 	
-<p>---below is recommandation for reducing RAM and HDD usage.</p>
+<h2>---below is recommandation for reducing RAM and HDD usage.</h2>
 
 <h3>service: (disable all these)</h3>
 <ul>
@@ -52,7 +52,7 @@
   <li>wifi - sel current wifi property - TURN ON meter connection</li>
 </ul>
 
-<h2>---belwo usually will be disable all on OOBE screen:</h2>
+<h3>---belwo usually will be disable all on OOBE screen:</h3>
 <ul>
 	<li>setting - privacy - general TRUN OFF advertising ID</li>
 	<li>setting - privacy - speech - TURN OFF Online Speech recognition </li> 
@@ -63,21 +63,21 @@
 	<li>setting - Update - Find my device - TURN OFF</li>
 </ul>
 
-<ul>
-	<li>setting - privacy - app permissions:</li>
+
+<h3>setting - privacy - app permissions:</h3>
   	<ul>
 	  <li>camera - choose apps</li>
 	  <li>microphone - choose apps</li>
 	  <li>voice activation - TURN OFF allow apps to use </li>
 	</ul>
 
-<li>settings - cortana:</li>
+<h3>settings - cortana:</h3>
   <ul>
 	<li>talk to cortana - lock screen - OFF</li>
 	<li>permission - cloud search OFF; -history OFF & OFF</li>
   </ul>
   
-<li>settings - cortana - more details - windows privacy options:</li>
+<h3>settings - cortana - more details - windows privacy options:</h3>
   <ul>
 	<li>general - ALL OFF</li>
 	<li>speech - OFF (very important, sometimes OFF by default)  </li>
@@ -86,17 +86,17 @@
 	<li>activity history - uncheck store my activity</li>
   </ul>	
   
-<li>settings - personalization:
+<h3>settings - personalization: </h3>
   <ul>
 	  <li>colors - Transparency effects TURN OFF</li>
   </ul>
 
-<li>microsoft store (or store) - settings:
+<h3>microsoft store (or store) - settings: </h3>
   <ul>
 	  <li>TURN OFF update option</li>
 	</ul>
 	
-<li>vitual memory:
+<h3>vitual memory: </h3>
   <ul>
 	  <li>for Surface 8G RAM + SSD: 512MB</li>
 	  <li>for others 4G RAM + HDD: 1024 or 1536 MB</li>
@@ -107,61 +107,81 @@
 <br>
 
 <div>
----above changes will reduce the RAM and HDD usage. 
----highly recommand to make the changes.
----below are changes made to Win10, highly recommand:
+	<p>---above changes will reduce the RAM and HDD usage. </p>
+	<p>---highly recommand to make the changes.</p>
+	<p>---below are changes made to Win10, highly recommand:</p>
 
+<dl>
+	<dt>hibernate/ fast startup: </dt>
+	<dd>(optional for HDD) </dd>
+	<dd>if stratup time is too long, keep it ON. </dd>
+	<dd>(recomand for SSD) </dd>
+	<dt>DISABLE fast-startup, to reduce read/write. </dt>
+	<dd>cmd>>> powercfg.exe -h off </dd>
+	<dd>ctrl pnl - power option - power button do - ... </dd>
+</dl>
 
-hibernate/ fast startup: 
-  (optional for HDD)
-  if stratup time is too long, keep it ON.
-  (recomand for SSD)
-  DISABLE fast-startup, to reduce read/write.
-  cmd>>> powercfg.exe -h off
-  ctrl pnl - power option - power button do - ...
+<p>ctrl pnl - user account:</p>
+  <ul>
+	<li>change user acct ctrl settings - HIGH </li>
+ </ul>
 
-ctrl pnl - user account:
-  change user acct ctrl settings - HIGH
+<dl>
+<dt>right click taskbar: <dt>
+	<dd>cortana - hidden</dd>
+</dl>
+	
+<dl>
+	<dt>settings - account: </dt>
+	<dd>sign-in options - privacy - OFF </dd>
+</dl>
 
-right click taskbar:
-  cortana - hidden
-
-settings - account:
-  sign-in options - privacy - OFF
-
-settings - systems:
-  tablet modes - sign in use desktop mode.
-
-settings - device:
-  bluetooth off (ON by default)
-  typing - TURN ON show the touch keyboard when not in tablet mode.
-
-settings - update: (Home edition)
-  windows defender - TURN OFF device encryption
-
-settings - apps - video playback:
-  battery option - CHOOSE optm battery life
-  Windows HD color settings - CHOOSE optm battery life
-  and more...(depends)
-
-regedit -
-  disable adaptive contrast:(for sp4)
-  regedit:
+<dl>
+	<dt>settings - systems: </dt>
+	<dd> tablet modes - sign in use desktop mode. </dd>
+</dl>
+<dl>
+<dt>settings - device: </dt>
+<dd>  bluetooth off (ON by default) </dd>
+<dd>  typing - TURN ON show the touch keyboard when not in tablet mode. </dd>
+</dl>
+<dl>
+	<dt>settings - update: (Home edition)</dt>
+	<dd>  windows defender - TURN OFF device encryption </dd>
+</dl>
+<dl>
+	<dt>settings - apps - video playback: </dt>
+	<dd>  battery option - CHOOSE optm battery life </dd>
+	<dd>  Windows HD color settings - CHOOSE optm battery life </dd>
+	<dd>  and more...(depends) </dd>
+</dl>
+<dl>
+<dt>regedit - <dt>
+<dd>  disable adaptive contrast:(for sp4) </dt>
+<dl>
+	<dt>regedit: </dt>
+    <dd>
     HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\
     {4d36e968-e325-11ce-bfc1-08002be10318}\0001
-    find FeatureTestControl, change from 9240 to 9250,
-    save and restart to take effect
+    </dd>
+    <dd>find FeatureTestControl, <br> change from 9240 to 9250,<br>
+	    save and restart to take effect</dd>
+</dl>
 
-ctrl pnl - region and language: 
-  administrative - change non-Unicode to Chinese
-  restart system to take effect
+<dl>
+<dt>ctrl pnl - region and language: </dt>
+<dd>  administrative - change non-Unicode to Chinese </dd>
+<dd>  restart system to take effect </dd>
+</dl>
 
-ctrl pnl - power option:
-  depends...
+<dl>
+	<dt>ctrl pnl - power option: </dt>
+	<dd>  depends... </dd>
+</dl>
 </div>
 
 <div>
-
+<pre>
 if no detail power option:
 ---below is to enable other power plans:
 ---do this will be disabling SLEEP mode, 
@@ -203,6 +223,7 @@ settings - display:
   TURN OFF: change brightness automatically
 settings - battery:
   TURN OFF: lower screen brightness in battery saver
+</pre>
 </div>
 
 <p>---end---</p>

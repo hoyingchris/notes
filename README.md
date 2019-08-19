@@ -1,4 +1,12 @@
-<b> disclaimer: this webpage is for personal testing purpose </b>
+<style>
+#important{
+	front-size:20px;
+	color:red;
+	text-align:center;
+</style>
+	
+
+<p id="important"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
 <br>
 <br>

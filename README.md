@@ -9,7 +9,7 @@
 
 ---last update 2019-07-30---
 
-<div>
+<div style="background-color:gray;">
 	
 <p>---below is recommandation for reducing RAM and HDD usage.</p>
 
@@ -25,26 +25,35 @@
 <br>
 
 
-<h3>>c:\ </h3>
+<h3>c:\ </h3>
 <ul>
 	<li>-properties-tools-optimize-change settings- uncheck </li>
 </ul>
 
-<dl>
-<dt>task manager - startup:  </dt>
-  <dd>disable some apps </dd>
 
-<dt>settings - update:  </dt>
-  <dd>advanced options: (depends)</dd>
-	<dd>CHOOSE semi-anual/ current brunch for business (1809 or earlier)</dd>
-	<dd>if needed, TURN ON pause updates (pause update once)</dd>
+<h3>task manager - startup:  </h3>
+  <ul>
+  <li>disable some apps </li>
+</ul>
 
-<dt>settings - update:</dt>
-  <dd>delivery optim - TURN OFF allow downloads from other PCs.</dd>
-  
-<dt>settings - network:(optional)</dt>
-  <dd>wifi - sel current wifi property - TURN ON meter connection</dd>
-</dl>
+<h3>settings - update:  </h3>
+  <ul>
+  <li>advanced options: (depends)</li>
+	<ul>
+	<li>CHOOSE semi-anual/ current brunch for business (1809 or earlier)</li>
+	<li>if needed, TURN ON pause updates (pause update once)</li>
+	</ul>
+	</ul>
+	
+<h3>settings - update:</h3>
+<ul>
+  <li>delivery optim - TURN OFF allow downloads from other PCs.</li>
+ <ul>
+	
+<h3>settings - network:(optional)</h3>
+  <ul>
+  <li>wifi - sel current wifi property - TURN ON meter connection</li>
+</ul>
 
 <h2>---belwo usually will be disable all on OOBE screen:</h2>
 <ul>
@@ -95,6 +104,7 @@
 	  <li>for Surface 8G RAM + SSD: 512MB</li>
 	  <li>for others 4G RAM + HDD: 1024 or 1536 MB</li>
 	</ul>
+
 </div>
 
 <br>

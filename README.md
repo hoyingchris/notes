@@ -1,23 +1,18 @@
 <style>
-#important{
-	font-size:30px;
-	color:red;
-	//text-align:center;
 </style>
 	
 
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
 <br>
-<br>
 <h1>windows 10 initial setup keynotes</h1>
 
 ---last update 2019-07-30---
 
-
+<div>
 ---below is recommandation for reducing RAM and HDD usage.
 
-<h2>service: (disable all these)</h2>
+<h3>service: (disable all these)</h3>
 <ul>
 	<li>connected user experience</li>
 	<li>sysmain/superfetch</li>
@@ -27,6 +22,7 @@
 	<li>HomeGroup Provider (1703 or earlier)</li>
 </ul>
 <br>
+
 c:\ 
   -properties-tools-optimize-change settings- uncheck
 
@@ -43,40 +39,56 @@ settings - network:(optional)
   wifi - sel current wifi property - TURN ON meter connection
 
 
----belwo usually will be disable all on OOBE screen:
-setting - privacy - general TRUN OFF advertising ID
-setting - privacy - speech - TURN OFF Online Speech recognition 
-setting - privacy - inking & typing - TURN OFF 
-setting - privacy - diagnostics - CHOOSE BASIC diagnostic data
-setting - privacy - diagnostics - TURN OFF tailored experiences
-setting - privacy - location - TURN OFF allow access to location
-setting - Update - Find my device - TURN OFF
+<h2>---belwo usually will be disable all on OOBE screen:</h2>
+<ul>
+	<li>setting - privacy - general TRUN OFF advertising ID</li>
+	<li>setting - privacy - speech - TURN OFF Online Speech recognition </li> 
+	<li>setting - privacy - inking & typing - TURN OFF </li>
+	<li>setting - privacy - diagnostics - CHOOSE BASIC diagnostic data</li>
+	<li>setting - privacy - diagnostics - TURN OFF tailored experiences</li>
+	<li>setting - privacy - location - TURN OFF allow access to location</li>
+	<li>setting - Update - Find my device - TURN OFF</li>
+</ul>
 
-setting - privacy - app permissions:
-  camera - choose apps
-  microphone - choose apps
-  voice activation - TURN OFF allow apps to use 
+<ul>
+	<li>setting - privacy - app permissions:</li>
+  	<ul>
+	  <li>camera - choose apps</li>
+	  <li>microphone - choose apps</li>
+	  <li>voice activation - TURN OFF allow apps to use </li>
+	</ul>
 
-settings - cortana:
-  talk to cortana - lock screen - OFF
-  permission - cloud search OFF; -history OFF & OFF
+<li>settings - cortana:</li>
+  <ul>
+	<li>talk to cortana - lock screen - OFF</li>
+	<li>permission - cloud search OFF; -history OFF & OFF</li>
+  </ul>
+  
+<li>settings - cortana - more details - windows privacy options:</li>
+  <ul>
+	<li>general - ALL OFF</li>
+	<li>speech - OFF (very important, sometimes OFF by default)  </li>
+	<li>Inking & typing - OFF</li>
+	<li>diagnstics - feedback freq - Never</li>
+	<li>activity history - uncheck store my activity</li>
+  </ul>	
+  
+<li>settings - personalization:
+  <ul>
+	  <li>colors - Transparency effects TURN OFF</li>
+  </ul>
 
-settings - cortana - more details - windows privacy options:
-  general - ALL OFF
-  speech - OFF (very important, sometimes OFF by default)
-  Inking & typing - OFF
-  diagnstics - feedback freq - Never
-  activity history - uncheck store my activity
-
-settings - personalization:
-  colors - Transparency effects TURN OFF
-
-microsoft store (or store) - settings:
-  TURN OFF update option
-
-vitual memory:
-  for Surface 8G RAM + SSD: 512MB
-  for others 4G RAM + HDD: 1024 or 1536 MB
+<li>microsoft store (or store) - settings:
+  <ul>
+	  <li>TURN OFF update option</li>
+	</ul>
+	
+<li>vitual memory:
+  <ul>
+	  <li>for Surface 8G RAM + SSD: 512MB</li>
+	  <li>for others 4G RAM + HDD: 1024 or 1536 MB</li>
+	</ul>
+</div>
 
 
 

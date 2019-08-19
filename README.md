@@ -123,13 +123,13 @@
 <dl>
 <dt>ctrl pnl - user account:</dt>
  <dd>change user acct ctrl settings - HIGH </dd>
- </dl>
+</dl>
 
 <dl>
 	<dt>right click taskbar: <dt>
 	<dd>cortana - hidden</dd>
 </dl>
-	
+
 <dl>
 	<dt>settings - account: </dt>
 	<dd>sign-in options - privacy - OFF </dd>
@@ -178,7 +178,7 @@
 	<dd>  depends... </dd>
 </dl>
 <p></p>
-</div>
+hello world </div>
 
 
 <div>

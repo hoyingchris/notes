@@ -24,9 +24,9 @@
 </ul>
 <br>
 
-<dl>
-	<dt>c:\ </dt>
-	<dd>-properties-tools-optimize-change settings- uncheck </dd>
+<ul>
+	<p>c:\ </p>
+	<li>-properties-tools-optimize-change settings- uncheck </li>
 
 <dt>task manager - startup:  </dt>
   <dd>disable some apps </dd>

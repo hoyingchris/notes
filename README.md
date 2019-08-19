@@ -24,10 +24,13 @@
 </ul>
 <br>
 
-<ul>
-	<p>c:\ </p>
-	<li>-properties-tools-optimize-change settings- uncheck </li>
 
+<h3>>c:\ </h3>
+<ul>
+	<li>-properties-tools-optimize-change settings- uncheck </li>
+</ul>
+
+<dl>
 <dt>task manager - startup:  </dt>
   <dd>disable some apps </dd>
 
@@ -94,7 +97,7 @@
 	</ul>
 </div>
 
-
+<br>
 
 ---above changes will reduce the RAM and HDD usage. 
 ---highly recommand to make the changes.

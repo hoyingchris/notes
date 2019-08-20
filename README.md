@@ -1,7 +1,14 @@
 <style>
 #subtitle {
-font-weight:bold;
+	font-weight:bold;
+	
 }
+#subcomment {
+	font-weight:bold;
+	font-style:italic;
+}
+
+
 </style>
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
@@ -12,9 +19,9 @@ font-weight:bold;
 
 <div>
 	
-<p id="subtitle">---below is recommandation for reducing RAM and HDD usage.</p>
+<p id="subcomment">---below is recommandation for reducing RAM and HDD usage.</p>
 
-<p>service: (disable all these)</p>
+<p id="subtitle">service: (disable all these)</p>
 <ul>
 	<li>connected user experience</li>
 	<li>sysmain/superfetch</li>
@@ -111,9 +118,9 @@ font-weight:bold;
 <br>
 
 <div>
-	<p>---above changes will reduce the RAM and HDD usage. </p>
-	<p>---highly recommand to make the changes.</p>
-	<p>---below are changes made to Win10, highly recommand:</p>
+	<p id="subcomment">---above changes will reduce the RAM and HDD usage. </p>
+	<p id="subcomment">---highly recommand to make the changes.</p>
+	<p id="subcomment">---below are changes made to Win10, highly recommand:</p>
 
 <dl>
 	<dt>hibernate/ fast startup: </dt>

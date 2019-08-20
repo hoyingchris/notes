@@ -117,80 +117,89 @@ list-style-type:none;
 
 </div>
 
-<br>
+
 
 <div>
 	<p id="subcomment">---above changes will reduce the RAM and HDD usage. </p>
 	<p id="subcomment">---highly recommand to make the changes.</p>
 	<p id="subcomment">---below are changes made to Win10, highly recommand:</p>
 
-<dl>
-	<dt>hibernate/ fast startup: </dt>
-	<dd>(optional for HDD) </dd>
-	<dd>if stratup time is too long, keep it ON. </dd>
-	<dd>(recomand for SSD) </dd>
-	<dt>DISABLE fast-startup, to reduce read/write. </dt>
-	<dd>cmd>>> powercfg.exe -h off </dd>
-	<dd>ctrl pnl - power option - power button do - ... </dd>
-</dl>
-<dl>
-<dt>ctrl pnl - user account:</dt>
- <dd>change user acct ctrl settings - HIGH </dd>
-</dl>
+<p id="subtitle">hibernate/ fast startup: </p>
+<ul>
+	<li>(optional for HDD) </li>
+	<li>if stratup time is too long, keep it ON. </li>
+	<li>(recomand for SSD) </li>
+</ul>
+<ul>
+	<li>DISABLE fast-startup, to reduce read/write. </li>
+	<li>cmd>>> powercfg.exe -h off </li>
+	<li>ctrl pnl - power option - power button do - ... </li>
+</ul>
 
-<dl>
-	<dt>right click taskbar: <dt>
-	<dd>cortana - hidden</dd>
-</dl>
+<p id="subtitle">ctrl pnl - user account:</p>
+<ul>
+ <li>change user acct ctrl settings - HIGH </li>
+</ul>
 
-<dl>
-	<dt>settings - account: </dt>
-	<dd>sign-in options - privacy - OFF </dd>
-</dl>
+<p id="subtitle">right click taskbar: <p>
+<ul>
+<li>cortana - hidden</li>
+</ul>
 
-<dl>
-	<dt>settings - systems: </dt>
-	<dd> tablet modes - sign in use desktop mode. </dd>
-</dl>
-<dl>
-<dt>settings - device: </dt>
-<dd>  bluetooth off (ON by default) </dd>
-<dd>  typing - TURN ON show the touch keyboard when not in tablet mode. </dd>
-</dl>
-<dl>
-	<dt>settings - update: (Home edition)</dt>
-	<dd>  windows defender - TURN OFF device encryption </dd>
-</dl>
-<dl>
-	<dt>settings - apps - video playback: </dt>
-	<dd>  battery option - CHOOSE optm battery life </dd>
-	<dd>  Windows HD color settings - CHOOSE optm battery life </dd>
-	<dd>  and more...(depends) </dd>
-</dl>
-<dl>
-<dt>regedit - <dt>
-<dd>  disable adaptive contrast:(for sp4) </dt>
-<dl>
-	<dt>regedit: </dt>
-    <dd>
+<p id="subtitle">settings - account: </p>
+<ul>
+	<li>sign-in options - privacy - OFF </li>
+</ul>
+
+<p id="subtitle">settings - systems: </p>
+<ul>
+	<li> tablet modes - sign in use desktop mode. </li>
+</ul>
+
+<p id="subtitle">settings - device: </p>
+<ul>
+<li>  bluetooth off (ON by default) </li>
+<li>  typing - TURN ON show the touch keyboard when not in tablet mode. </li>
+</ul>
+
+<p id="subtitle">settings - update: (Home edition)</p>
+<ul>
+	<li>  windows defender - TURN OFF device encryption </li>
+</ul>
+
+<p id="subtitle">settings - apps - video playback: </p>
+<ul>
+	<li>  battery option - CHOOSE optm battery life </li>
+	<li>  Windows HD color settings - CHOOSE optm battery life </li>
+	<li>  and more...(depends) </li>
+</ul>
+
+<p id="subtitle">regedit - <p>
+<ul>
+<li>  disable adaptive contrast:(for sp4) </li>
+<li>regedit: </li>
+    	<ul>
+	    	<li>
     HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\
     {4d36e968-e325-11ce-bfc1-08002be10318}\0001
-    </dd>
-    <dd>find FeatureTestControl, <br> change from 9240 to 9250,<br>
+    		</li>
+	</ul>
+<li>find FeatureTestControl, <br> change from 9240 to 9250,<br>
 	    save and restart to take effect</dd>
-</dl>
+</ul>
 
-<dl>
-<dt>ctrl pnl - region and language: </dt>
-<dd>  administrative - change non-Unicode to Chinese </dd>
-<dd>  restart system to take effect </dd>
-</dl>
+<p id="subtitle">ctrl pnl - region and language: </p>
+<ul>
+<li>  administrative - change non-Unicode to Chinese </li>
+<li>  restart system to take effect </li>
+</ul>
 
-<dl>
-	<dt>ctrl pnl - power option: </dt>
-	<dd>  depends... </dd>
-</dl>
+<p id="subtitle">ctrl pnl - power option: </p>
+<ul>
+	<li>  depends... </li>
+</ul>
 <p></p>
+<br>
 hello world </div>
 
 

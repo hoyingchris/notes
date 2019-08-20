@@ -7,7 +7,7 @@
 	font-weight:bold;
 	font-style:italic;
 }
-li {
+ul {
 list-style-type:none;
 }
 
@@ -19,7 +19,7 @@ list-style-type:none;
 
 ---last update 2019-07-30---
 
-<div>
+
 	
 <p id="subcomment">---below is recommandation for reducing RAM and HDD usage.</p>
 
@@ -185,7 +185,7 @@ list-style-type:none;
     		</li>
 	</ul>
 <li>find FeatureTestControl, <br> change from 9240 to 9250,<br>
-	    save and restart to take effect</dd>
+	    save and restart to take effect</li>
 </ul>
 
 <p id="subtitle">ctrl pnl - region and language: </p>
@@ -200,7 +200,8 @@ list-style-type:none;
 </ul>
 <p></p>
 <br>
-hello world </div>
+<br>
+hello world
 
 
 <div>

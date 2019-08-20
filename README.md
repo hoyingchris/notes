@@ -14,8 +14,8 @@ list-style-type:none;
 </style>
 
 <h2>
-		<a href="https://hoyingchris.github.io/notes/main/">main</a>
-	</h2>
+	<a href="https://hoyingchris.github.io/notes/main.html">main</a>
+</h2>
 
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>

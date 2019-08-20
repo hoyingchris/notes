@@ -7,7 +7,9 @@
 	font-weight:bold;
 	font-style:italic;
 }
-
+li {
+list-style-type:none;
+}
 
 </style>
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>

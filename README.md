@@ -8,7 +8,7 @@
 
 <div>
 	
-<h3>---below is recommandation for reducing RAM and HDD usage.</h2>
+<p id="subtitle">---below is recommandation for reducing RAM and HDD usage.</p>
 
 <p>service: (disable all these)</p>
 <ul>
@@ -22,18 +22,18 @@
 <br>
 
 
-<h3>c:\ </h3>
+<p id="subtitle">c:\ </p>
 <ul>
 	<li>-properties-tools-optimize-change settings- uncheck </li>
 </ul>
 
 
-<h3>task manager - startup:  </h3>
+<p id="subtitle">task manager - startup:  </p>
   <ul>
   <li>disable some apps </li>
 </ul>
 
-<h3>settings - update:  </h3>
+<p id="subtitle">settings - update:  </p>
   <ul>
   <li>advanced options: (depends)</li>
 	<ul>
@@ -42,17 +42,17 @@
 	</ul>
 </ul>
 	
-<h3>settings - update:</h3>
+<p id="subtitle">settings - update:</p>
 <ul>
   <li>delivery optim - TURN OFF allow downloads from other PCs.</li>
 </ul>
 	
-<h3>settings - network:(optional)</h3>
+<p id="subtitle">settings - network:(optional)</p>
 <ul>
   <li>wifi - sel current wifi property - TURN ON meter connection</li>
 </ul>
 
-<h3>---belwo usually will be disable all on OOBE screen:</h3>
+<p id="subtitle">---belwo usually will be disable all on OOBE screen:</p>
 <ul>
 	<li>setting - privacy - general TRUN OFF advertising ID</li>
 	<li>setting - privacy - speech - TURN OFF Online Speech recognition </li> 
@@ -64,20 +64,20 @@
 </ul>
 
 
-<h3>setting - privacy - app permissions:</h3>
+<p id="subtitle">setting - privacy - app permissions:</p>
   	<ul>
 	  <li>camera - choose apps</li>
 	  <li>microphone - choose apps</li>
 	  <li>voice activation - TURN OFF allow apps to use </li>
 	</ul>
 
-<h3>settings - cortana:</h3>
+<p id="subtitle">settings - cortana:</p>
   <ul>
 	<li>talk to cortana - lock screen - OFF</li>
 	<li>permission - cloud search OFF; -history OFF & OFF</li>
   </ul>
   
-<h3>settings - cortana - more details - windows privacy options:</h3>
+<p id="subtitle">settings - cortana - more details - windows privacy options:</p>
   <ul>
 	<li>general - ALL OFF</li>
 	<li>speech - OFF (very important, sometimes OFF by default)  </li>
@@ -86,17 +86,17 @@
 	<li>activity history - uncheck store my activity</li>
   </ul>	
   
-<h3>settings - personalization: </h3>
+<p id="subtitle">settings - personalization: </p>
   <ul>
 	  <li>colors - Transparency effects TURN OFF</li>
   </ul>
 
-<h3>microsoft store (or store) - settings: </h3>
+<p id="subtitle">microsoft store (or store) - settings: </p>
   <ul>
 	  <li>TURN OFF update option</li>
 	</ul>
 	
-<h3>vitual memory: </h3>
+<p id="subtitle">vitual memory: </p>
   <ul>
 	  <li>for Surface 8G RAM + SSD: 512MB</li>
 	  <li>for others 4G RAM + HDD: 1024 or 1536 MB</li>

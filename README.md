@@ -65,7 +65,7 @@ list-style-type:none;
   <li>wifi - sel current wifi property - TURN ON meter connection</li>
 </ul>
 
-<p id="subtitle">---belwo usually will be disable all on OOBE screen:</p>
+<p id="subcomment">---belwo usually will be disable all on OOBE screen:</p>
 <ul>
 	<li>setting - privacy - general TRUN OFF advertising ID</li>
 	<li>setting - privacy - speech - TURN OFF Online Speech recognition </li> 

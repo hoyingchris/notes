@@ -12,14 +12,14 @@ list-style-type:none;
 }
 
 </style>
+
+
 <p style="color:red;font-weight:bold;font-size:5vw;"> disclaimer: this webpage is for personal testing purpose </p>
 <br>
 <br>
 <h1>windows 10 initial setup keynotes</h1>
 
 ---last update 2019-07-30---
-
-
 	
 <p id="subcomment">---below is recommandation for reducing RAM and HDD usage.</p>
 
@@ -32,14 +32,11 @@ list-style-type:none;
 	<li>HomeGroup Listener (1703 or earlier)</li> 
 	<li>HomeGroup Provider (1703 or earlier)</li>
 </ul>
-<br>
-
 
 <p id="subtitle">c:\ </p>
 <ul>
 	<li>-properties-tools-optimize-change settings- uncheck </li>
 </ul>
-
 
 <p id="subtitle">task manager - startup:  </p>
   <ul>
@@ -78,11 +75,11 @@ list-style-type:none;
 
 
 <p id="subtitle">setting - privacy - app permissions:</p>
-  	<ul>
+<ul>
 	  <li>camera - choose apps</li>
 	  <li>microphone - choose apps</li>
 	  <li>voice activation - TURN OFF allow apps to use </li>
-	</ul>
+</ul>
 
 <p id="subtitle">settings - cortana:</p>
   <ul>
@@ -115,14 +112,10 @@ list-style-type:none;
 	  <li>for others 4G RAM + HDD: 1024 or 1536 MB</li>
 	</ul>
 
-</div>
 
-
-
-<div>
-	<p id="subcomment">---above changes will reduce the RAM and HDD usage. </p>
-	<p id="subcomment">---highly recommand to make the changes.</p>
-	<p id="subcomment">---below are changes made to Win10, highly recommand:</p>
+<p id="subcomment">---above changes will reduce the RAM and HDD usage. </p>
+<p id="subcomment">---highly recommand to make the changes.</p>
+<p id="subcomment">---below are changes made to Win10, highly recommand:</p>
 
 <p id="subtitle">hibernate/ fast startup: </p>
 <ul>

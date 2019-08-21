@@ -15,7 +15,8 @@
 - windows search
 - windows update (also change recovery action to no action)
 
-c:\ 
+**c:\** 
+
  -properties-tools-optimize-change settings- uncheck
 
 task manager - startup:

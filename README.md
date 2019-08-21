@@ -2,6 +2,7 @@
 **last update 20190821**
 
 ***for first time startup, do not connect to wifi.***
+
 ***recommend to run fresh start first to delete useless software.***
 
 *---below is recommendation for reducing RAM and HDD usage. *

@@ -7,12 +7,12 @@
 ---below is recommendation for reducing RAM and HDD usage.
 
 service: (disable all these)
--connected user experience
--HomeGroup Listener (1703 or earlier) 
--HomeGroup Provider (1703 or earlier)
--sysmain/superfetch
--windows search
--windows update (also change recovery action to no action)
+- connected user experience
+- HomeGroup Listener (1703 or earlier) 
+- HomeGroup Provider (1703 or earlier)
+- sysmain/superfetch
+- windows search
+- windows update (also change recovery action to no action)
 
 c:\ 
 -properties-tools-optimize-change settings- uncheck

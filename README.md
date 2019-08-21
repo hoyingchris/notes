@@ -15,9 +15,9 @@
 - windows search
 - windows update (also change recovery action to no action)
 
-**c:\** 
+**c:\\ ** 
 
- -properties-tools-optimize-change settings- uncheck
+  -properties-tools-optimize-change settings- uncheck
 
 task manager - startup:
 -  disable some apps

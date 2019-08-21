@@ -5,7 +5,7 @@
 
 ***recommend to run fresh start first to delete useless software.***
 
-*---below is recommendation for reducing RAM and HDD usage. *
+*below is recommendation for reducing RAM and HDD usage. *
 
 **service: (disable all these)**
 - connected user experience
@@ -16,7 +16,7 @@
 - windows update (also change recovery action to no action)
 
 c:\ 
-- properties-tools-optimize-change settings- uncheck
+ -properties-tools-optimize-change settings- uncheck
 
 task manager - startup:
 -  disable some apps

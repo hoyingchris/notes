@@ -15,7 +15,7 @@
 - windows search
 - windows update (also change recovery action to no action)
 
-__c:\ __ 
+**c:\
 
   -properties-tools-optimize-change settings- uncheck
 

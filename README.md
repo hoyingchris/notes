@@ -15,44 +15,44 @@ service: (disable all these)
 - windows update (also change recovery action to no action)
 
 c:\ 
--properties-tools-optimize-change settings- uncheck
+- properties-tools-optimize-change settings- uncheck
 
 task manager - startup:
-  disable some apps
+-  disable some apps
 
 settings - update:
-  advanced options: (depends)
-	CHOOSE semi-anual/ current brunch for business (1809 or earlier)
+-  advanced options: (depends)
+   -	CHOOSE semi-anual/ current brunch for business (1809 or earlier)
 	if needed, TURN ON pause updates (pause update once)
 
 settings - update:
-  delivery optim - TURN OFF allow downloads from other PCs.
+-  delivery optim - TURN OFF allow downloads from other PCs.
 
 settings - network:(optional)
-  wifi - sel current wifi property - TURN ON meter connection
-  data usage - background connection OFF
+-  wifi - sel current wifi property - TURN ON meter connection
+-  data usage - background connection OFF
 
 settings - privacy - background
-  background apps - TURN OFF ALL
+-  background apps - TURN OFF ALL
 
----belwo usually will be disable all on OOBE screen:
-setting - privacy - general TRUN OFF advertising ID
-setting - privacy - speech - TURN OFF Online Speech recognition 
-setting - privacy - inking & typing - TURN OFF 
-setting - privacy - diagnostics - CHOOSE BASIC diagnostic data
-setting - privacy - diagnostics - TURN OFF tailored experiences
-setting - privacy - feedback - frequency - NEVER
-setting - privacy - location - TURN OFF allow access to location
-setting - Update - Find my device - TURN OFF
+**belwo usually will be disable all on OOBE screen:
+- setting - privacy - general TRUN OFF advertising ID
+- setting - privacy - speech - TURN OFF Online Speech recognition 
+- setting - privacy - inking & typing - TURN OFF 
+- setting - privacy - diagnostics - CHOOSE BASIC diagnostic data
+- setting - privacy - diagnostics - TURN OFF tailored experiences
+- setting - privacy - feedback - frequency - NEVER
+- setting - privacy - location - TURN OFF allow access to location
+- setting - Update - Find my device - TURN OFF
 
 setting - privacy - app permissions:
-  camera - choose apps
-  microphone - choose apps
-  voice activation - TURN OFF allow apps to use 
+-  camera - choose apps
+-  microphone - choose apps
+-  voice activation - TURN OFF allow apps to use 
 
 settings - cortana:
-  talk to cortana - lock screen - OFF
-  permission - cloud search OFF; -history OFF & OFF
+ -  talk to cortana - lock screen - OFF
+ -  permission - cloud search OFF; -history OFF & OFF
 
 settings - cortana - more details - windows privacy options:
   general - ALL OFF

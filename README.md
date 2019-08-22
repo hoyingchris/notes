@@ -192,4 +192,4 @@ settings - system - battery:
   TURN OFF: lower screen brightness in battery saver
 </pre>
 <hr>
-<p><t><b>---end---</b></t></p>
+<p><em>---end---</em></p>

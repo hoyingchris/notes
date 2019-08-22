@@ -3,10 +3,11 @@
 <br>
 <p><b>for first time startup, do not connect to wifi.</b></p>
 <hr>
-<h1>
+<h2>
 Stage 1
 fast tune up for reducing RAM and HDD usage:
-</h1>
+</h2>
+<pre>
 task manager - startup:
   disable some apps
 
@@ -34,11 +35,12 @@ settings - network:(optional)
   wifi - select current wifi property - TURN ON meter connection
   data usage - background data - ALWAYS RESTRICT
 
-
-
+</pre>
+<h2>
 Stage 2
 advance tune up:
-
+</h2>
+<pre>
 below usually have be disabled on OOBE screen:
  setting - privacy - general TRUN OFF advertising ID
  setting - privacy - speech - TURN OFF Online Speech recognition 
@@ -47,7 +49,6 @@ below usually have be disabled on OOBE screen:
  setting - privacy - diagnostics - TURN OFF tailored experiences
  setting - privacy - location - TURN OFF allow access to location
  setting - Update - Find my device - TURN OFF
-
 
 settings - Privacy:
   general - ALL OFF
@@ -76,12 +77,13 @@ settings - cortana:
 vitual memory:
   for Surface 8G RAM + SSD: 512MB
   for others 4G RAM + HDD: 1024 or 1536 MB
+</pre>
 
-
-
+<h2>
 Stage 3
 customization:
-
+</h2>
+<pre>
 setting - system:
   Display 	- OFF auto brightness
   Power&Sleep 	- ALWAYS disconnect from the network when sleep
@@ -122,7 +124,6 @@ settings: (depends...)
   (before 1803)
   system - about - TURN OFF device encryption
   
-
 ctrl pnl - user account:
   change user acct ctrl settings - HIGH
 
@@ -145,11 +146,12 @@ regedit - disable adaptive contrast:(for sp4)
     {4d36e968-e325-11ce-bfc1-08002be10318}\0001
   find FeatureTestControl, change from 9240 to 9250,
   save and restart to take effect
+</pre>
 
-
-
+<h2>
 Extra Stage:
-
+</h2>
+<pre>
 if no detail power option:
   below is to enable other power plans:
   do this will be disabling SLEEP mode, 
@@ -188,5 +190,6 @@ settings - system - display:
   TURN OFF: change brightness automatically
 settings - system - battery:
   TURN OFF: lower screen brightness in battery saver
-
----end---
+</pre>
+<hr>
+<p><t><b>---end---</b></t></p>

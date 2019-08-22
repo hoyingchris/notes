@@ -1,11 +1,12 @@
 
 ---last update 20190822---
-
-for first time startup, do not connect to wifi.
-
+<br>
+<p><b>for first time startup, do not connect to wifi.</b></p>
+<hr>
+<h1>
 Stage 1
 fast tune up for reducing RAM and HDD usage:
-
+</h1>
 task manager - startup:
   disable some apps
 
@@ -97,7 +98,6 @@ settings - personalization:
 settings - Apps
   offline maps - OFF auto update maps
   video playback - CHOOSE prefer to play at lower resolution
-
   		 - CHOOSE optm battery life
   		 - Windows HD color settings - CHOOSE optm battery life
   

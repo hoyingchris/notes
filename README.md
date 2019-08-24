@@ -140,18 +140,20 @@ ctrl pnl - power option: (depends...)
       - cmd: powercfg.exe -h off
       - ctrl pnl - power option - power button do - ...
 
-regedit - disable adaptive contrast:(for sp4)
-  regedit:
-    HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\
-    {4d36e968-e325-11ce-bfc1-08002be10318}\0001
-  find FeatureTestControl, change from 9240 to 9250,
-  save and restart to take effect
+
 </pre>
 
 <h2>
 Extra Stage:
 </h2>
 <pre>
+regedit - disable adaptive contrast:(for sp4)
+  regedit:
+    HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Class\
+    {4d36e968-e325-11ce-bfc1-08002be10318}\0001
+  find FeatureTestControl, change from 9240 to 9250,
+  save and restart to take effect
+  
 if no detail power option:
   below is to enable other power plans:
   do this will be disabling SLEEP mode, 
